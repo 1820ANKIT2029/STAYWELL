@@ -4,7 +4,7 @@ const generateTokenAndSetCookie  = require('../utils/generateToken');
 
 const signup = async (req, res, next)=>{
     try{
-        const { name, username, password, confirmPassword, gender, phoneNo, email } = req.body;
+        const { name, username, password, confirmPassword, gender } = req.body;
 
         if(password !== confirmPassword){
             return res.status(400).json({error: "Password don't match"});
@@ -22,10 +22,8 @@ const signup = async (req, res, next)=>{
         let profilePic;
         if(gender == 'male'){
             profilePic = `https://avatar.iran.liara.run/public/boy?username=${username}`;
-        }else if (gender == 'female') {
+        }else{
             profilePic = `https://avatar.iran.liara.run/public/girl?username=${username}`;
-        } else {
-            profilePic = `https://avatar.iran.liara.run/public/?username=${username}`;
         }
 
         const newUser = new User({
