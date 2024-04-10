@@ -2,9 +2,10 @@
   "name": "staywell",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "start": "node backend/server.js"
   },
   "keywords": [],
   "author": "",
