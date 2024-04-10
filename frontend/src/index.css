@@ -7,9 +7,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(https://img.freepik.com/free-photo/comfortable-decor-luxury-furniture-light_1203-4995.jpg);
+background-repeat: no-repeat;
+background-size: cover
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
