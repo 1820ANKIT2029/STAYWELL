@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import './carousel.css';
 
 function Searchbar(){
     return (
-        <div className="bg-gray-400 m-10 p-10 flex flex-col justify-start max-w-[400px] rounded-xl">
+        <div className="m-10 p-10 flex flex-col justify-start max-w-[400px] rounded-xl" id="background">
             <h1>where</h1>
             <input className="inputbox m-2 p-2"
             type="text"
