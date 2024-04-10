@@ -7,6 +7,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: url(https://watermark.lovepik.com/photo/20211123/large/lovepik-hotel-room-background-map-picture_500806522.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
