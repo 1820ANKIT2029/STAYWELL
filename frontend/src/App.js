@@ -1,17 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Header from './components/header';
-import Searchbar from "./components/searchbar"
-import Carousel from './components/carousel';
+import { BrowserRouter,Routes,Route} from 'react-router-dom';
+import Home from "./components/pages/home.js"
 function App() {
   return (
-    <div className="App">
-      
-      
-      <Header/>
-      <Searchbar/>
-      <Carousel/>
-      
+    <div>
+      <BrowserRouter>
+      <Routes>
+        <Route index element={<Home/>}/>
+        <Route path="/home" element={<Home/>}/>
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }
