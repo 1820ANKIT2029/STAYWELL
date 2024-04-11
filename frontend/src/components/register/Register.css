@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-.wrapper{
+.wrapper-register{
     width: 530px;
     height: 570px   ;
     background-color: transparent;
@@ -22,12 +22,12 @@
     left:700px;
 } */
 
-.wrapper h1{
+.wrapper-register h1{
     font-size: 36px;
     text-align: center;
 }
 
-.wrapper .input-box {
+.wrapper-register .input-box {
     position: relative;
     width: 100%;
     height: 50px;
@@ -72,7 +72,7 @@
     font-size: 16px;
 }
 
-.wrapper .remember-forgot {
+.wrapper-register .remember-forgot {
     display: flex;
     justify-content: space-between;
     font-size: 14.5px;
@@ -87,7 +87,7 @@
 .remember-forgot a:hover {
     text-decoration: underline;
 }
-.wrapper button {
+.wrapper-register button {
     width: 60%;
     height: 45px;
     background: black;
@@ -100,12 +100,12 @@
     font-weight: 700;
 }
 
-.wrapper .register-link {
+.wrapper-register .register-link {
     font-size: 14.5px;
     text-align: center;
     margin: 20px 0 15px ;
 }
-.wrapper .register-link p a {
+.wrapper-register .register-link p a {
     color: black;
     text-decoration: none;
     font-weight: 600;
@@ -116,7 +116,7 @@
 }
 
 /* image component */
-.image{
+.image-brand{
     /* width: 400px;
     height: 300px;
     margin-right: 100px;
@@ -155,7 +155,7 @@
     top: 22px;
 }
 
-.main {
+.main-register {
     display: flex;
     justify-content: center;
     align-items: center;

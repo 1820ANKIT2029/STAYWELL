@@ -7,7 +7,7 @@ import LogoIcon from '../brand.jsx';
 function Log(props) {
   return (
     <>
-    <div className="main">
+    <div className="main-Login">
       {/* <Header/> */}
       <LogoIcon/>
       <LoginForm/>

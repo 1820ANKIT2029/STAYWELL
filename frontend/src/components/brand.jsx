@@ -5,7 +5,7 @@ import './register/Register.css';
 const LogoIcon = () =>{
     return (
         <>
-            <div className="image">
+            <div className="image-brand">
                 <img src="/assets/logo.png" alt="" className="brand" />
             </div>
         </>

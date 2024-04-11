@@ -5,7 +5,7 @@ import { FaUser, FaLock} from "react-icons/fa6";
 const LoginForm = () =>{
     return (
         <>
-        <div className='wrapper' >
+        <div className='wrapper-login' >
             <form action="">
                 <h1>Login</h1>
                 <div className="input-box">
