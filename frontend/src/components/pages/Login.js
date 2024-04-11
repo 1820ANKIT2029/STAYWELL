@@ -1,6 +1,4 @@
 import React from 'react';
-import '../App.css';
-import '../index.css';
 import './loginForm/LoginForm.css';
 import LoginForm from './loginForm/LoginForm.jsx';
 import LogoIcon from './brand.jsx';
