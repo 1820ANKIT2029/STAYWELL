@@ -1,0 +1,11 @@
+.footer{
+    background-color: black;
+    
+    
+}
+.footerlogo{
+    position:relative;
+    top:215px;
+    height:200px;
+    left:-10px
+}

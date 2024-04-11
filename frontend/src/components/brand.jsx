@@ -6,7 +6,7 @@ const LogoIcon = () =>{
     return (
         <>
             <div className="image">
-                <img src="./assets/staywell.png" alt="" className="brand" />
+                <img src="/assets/logo.png" alt="" className="brand" />
             </div>
         </>
     );

@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+
 import './carousel.css';
 
 function Searchbar(){
@@ -13,17 +13,17 @@ function Searchbar(){
             />
             <h1 class="checkin-title text-2xl">Check-in</h1>
             <input className="checkin m-2 p-2 inputbox"
-            type="text"
+            type="date"
             placeholder="check-in date"
             />
              <h1 class="checkout-title text-2xl">Check-out</h1>
              <input className="checkout m-2 p-2 inputbox"
-            type="text"
+            type="date"
             placeholder="check-out date"
             />
             <h1 className="text-2xl"> Guests</h1>
             <input className="Guests m-2 p-2 inputbox"
-            type="text"
+            type=""
             placeholder="e.g 2 Adults"
             />
            <button  type="submit" className="submitbutton m-2 p-2 bg-blue-400 inputbox">

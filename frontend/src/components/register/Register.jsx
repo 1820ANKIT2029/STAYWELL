@@ -5,7 +5,11 @@ import { FaUser, FaLock} from "react-icons/fa6";
 const Register = () =>{
     return (
         <>
-        <div className='wrapper'>
+        <div className='main'>
+        <div>
+            <img src="/assets/logo.png"/>
+        </div>
+        <div className='wrapper' id="registerform">
             <form action="">
                 <h1>Signup</h1>
                 <div className="input-box">
@@ -31,6 +35,7 @@ const Register = () =>{
                 </div>
                 
             </form>
+        </div>
         </div>
         </>
     );

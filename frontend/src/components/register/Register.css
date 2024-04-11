@@ -5,7 +5,7 @@
     width: 530px;
     height: 570px   ;
     background-color: transparent;
-    border: 2px solid black;
+    border: 2px solid rgb(65, 10, 10);
     backdrop-filter: blur(30px);
     box-shadow: 0 0 10px rgba(0,0,0,.2);
     color: black;
@@ -16,6 +16,11 @@
     -webkit-font-smoothing: antialiaed;
     -moz-osx-font-smoothing: grayscale;
 }
+/* #registerform{
+    position:relative;
+    top:110px;
+    left:700px;
+} */
 
 .wrapper h1{
     font-size: 36px;
@@ -154,4 +159,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 50px;
 }

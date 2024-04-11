@@ -2,7 +2,7 @@
 
 import Header from '../header';
 import Searchbar from "../searchbar"
-import Carousel from '../carousel';
+import Carousel from '../carousel.js';
 import Features from "../features"
 import Footer from '../footer';
 function Home() {
