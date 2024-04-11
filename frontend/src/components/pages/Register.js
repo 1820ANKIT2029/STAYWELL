@@ -1,9 +1,7 @@
 import React from 'react';
-import '../App.css';
-import '../index.css';
-import './register/Register.css';
-import Register from './register/Register.jsx';
-import LogoIcon from './brand.jsx';
+import '../register/Register.css';
+import Register from '../register/Register.jsx';
+import LogoIcon from '../brand.jsx';
 
 
 
