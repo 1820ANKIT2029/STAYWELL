@@ -42,3 +42,10 @@
 .inputbox{
     border-radius: 10px;
 }
+.text{
+    font-size: 350%;
+     position: relative;
+     top:80px;
+     right:550px;
+     opacity: .4;
+}

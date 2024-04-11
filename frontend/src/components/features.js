@@ -4,7 +4,7 @@ function Features(){
 return (
     <div>
         
-
+<h1 className=" text align-top italic">Features</h1>
 <div class=" p-20 grid grid-cols-2 md:grid-cols-4 gap-9 ">
     <div className="parent">
         <img class="h-auto max-w-full rounded-lg hov" src="/assets/img10.jpg" alt="Lakshadweep Island"/>
@@ -14,6 +14,7 @@ return (
     </div>
     <div className="parent">
         <img class="h-auto max-w-full rounded-lg hov" src="https://cdn.dirigible.studio/wp-content/uploads/sites/84/2016/03/22124727/Presidential_Suite_Bedroom_NEW.jpg" alt="Lawn Yard"/>
+       
     </div>
     <div className="parent">
         <img class="h-auto max-w-full rounded-lg hov" src="https://www.travelanddestinations.com/wp-content/uploads/2016/07/Skypool-at-the-Shangri-La-At-The-Shard.jpg" alt=""/>
