@@ -4,6 +4,7 @@ import Header from '../header';
 import Searchbar from "../searchbar"
 import Carousel from '../carousel';
 import Features from "../features"
+import Footer from '../footer';
 function Home() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function Home() {
         <Carousel />
       </div>
       <Features/>
+      <Footer/>
     </div>
   );
 }
