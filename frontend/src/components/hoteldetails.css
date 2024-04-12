@@ -6,6 +6,11 @@ body {
   background: url(https://img.freepik.com/free-photo/comfortable-decor-luxury-furniture-light_1203-4995.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  box-sizing: border-box;
+}
+
+#hotel-wrapper {
+    padding: 50px;
 }
 .wrapper-details {
   float: left;
@@ -17,7 +22,8 @@ body {
   box-sizing: border-box;
   box-shadow: 0 1px 30px rgba(0, 0, 0, 0.12), 0 3px 5px rgba(0, 0, 0, 0.24);
   text-align: center;
-  height:525px
+  height:500px;
+  padding: 5px;
 }
 .wrapper-details>h1 {
   font-family: "Lato", sans-serif;

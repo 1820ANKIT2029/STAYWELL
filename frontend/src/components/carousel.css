@@ -10,6 +10,10 @@
     width: 80px;
 }
 
+#home-padding{
+    padding-top: 20px;
+}
+
 .search {
     width: 500px;
     background-color: transparent;

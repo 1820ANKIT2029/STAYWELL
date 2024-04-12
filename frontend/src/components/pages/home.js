@@ -11,7 +11,8 @@ function Home() {
       
       
       <Header/>
-      <div className = "move">
+      {/* padding of search bar and the carousel at carousel.css */}
+      <div className = "move" id='home-padding'> 
         <Searchbar/>
         <Carousel />
       </div>
