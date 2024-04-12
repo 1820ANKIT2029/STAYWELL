@@ -12,8 +12,8 @@ app.use(cookieParser());
 const PORT = process.env.PORT || 5000;
 
 app.use('/', require('./routes/home.routes')); // Home page router
-app.use('/auth', require('./routes/auth.routes'));  // auth page router
-app.use('/search', require('./routes/search.routes')); // search page router
+app.use('/auth', require('./routes/auth.routes'));  // auth api router
+app.use('/search', require('./routes/search.routes')); // search api router
 
 app.listen(PORT, ()=>{
     connectToMongoDB();

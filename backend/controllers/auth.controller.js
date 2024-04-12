@@ -31,8 +31,6 @@ const signup = async (req, res, next)=>{
             username,
             password: hashedpassword,
             gender,
-            phoneNo,
-            email,
             profilePic
         });
         if(newUser){
@@ -45,6 +43,7 @@ const signup = async (req, res, next)=>{
                 username: newUser.username,
                 profilepic: newUser.profilepic
             });
+            console.log("User signup success");
         }
         else{
             res.status(400).json({ error: "Invalid User data" });
@@ -56,6 +55,7 @@ const signup = async (req, res, next)=>{
 };
 
 const login = async (req, res, next)=>{
+    console.log("trying login");
     try{
         const {username, password} = req.body;
         const user = await User.findOne({username});
@@ -72,11 +72,13 @@ const login = async (req, res, next)=>{
             username: user.username,
             profilePic: user.profilePic
         });
+        console.log("Login Done");
 
     }catch(error){
         console.log("Error in login controller", error.message);
         res.status(500).json({ error: "Internal Server Error" });
     }
+    console.log("Login process end");
 };
 
 const logout = (req, res, next)=>{
