@@ -1,11 +1,14 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const cookieParser = require('cookie-parser');
+var bodyParser = require('body-parser');
+
 
 const connectToMongoDB = require('./db/ConnectMongoDB');
 
 const app = express();
 
+app.use(bodyParser.urlencoded({ extended: true }));
 dotenv.config();
 app.use(express.json());
 app.use(cookieParser());

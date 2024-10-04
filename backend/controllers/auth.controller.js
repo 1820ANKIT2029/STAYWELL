@@ -2,7 +2,10 @@ const bcrypt = require('bcryptjs');
 const User = require('../models/user.model');
 const generateTokenAndSetCookie  = require('../utils/generateToken');
 
+
+
 const signup = async (req, res, next)=>{
+    console.log(req.body);
     try{
         const { name, gender, username, password, confirmPassword } = req.body;
 
@@ -55,7 +58,7 @@ const signup = async (req, res, next)=>{
 };
 
 const login = async (req, res, next)=>{
-    console.log("trying login");
+    console.log(req.data);
     try{
         const {username, password} = req.body;
         const user = await User.findOne({username});

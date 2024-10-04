@@ -6,14 +6,14 @@ const LoginForm = () =>{
     return (
         <>
         <div className='wrapper-login' >
-            <form action="">
+            <form action="http://127.0.0.1:5000/auth/login" method='post'>
                 <h1>Login</h1>
                 <div className="input-box">
-                    <input type="text" placeholder='Username' required/>
+                    <input type="text" name='username' placeholder='Username' required/>
                     <FaUser className='icon'/>
                 </div>
                 <div className="input-box">
-                    <input type="password" placeholder='Password' required/>
+                    <input type="password" name='password' placeholder='Password' required/>
                     <FaLock className='icon' />
                 </div>
                 <div className="remember-forgot">
