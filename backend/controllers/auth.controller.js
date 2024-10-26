@@ -60,7 +60,7 @@ const signup = async (req, res, next)=>{
 const login = async (req, res, next)=>{
     console.log(req.data);
     try{
-        const {username, password} = req.body;
+        const {username, password, rememberMe} = req.body;
         const user = await User.findOne({username});
         const isPasswordCorrect = await bcrypt.compare(password, user?.password || "");
 
@@ -68,7 +68,7 @@ const login = async (req, res, next)=>{
             return res.status(400).json({error: "Invalid username or password"});
         }
 
-        generateTokenAndSetCookie(user._id, res);
+        generateTokenAndSetCookie(user._id, rememberMe, res);
         res.status(200).json({
             _id: user._id,
             name: user.name,
